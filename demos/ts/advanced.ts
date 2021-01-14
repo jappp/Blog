@@ -96,6 +96,7 @@ abstract class Animal3 {
   public abstract sayHi();
 }
 
+// 未实现sayHi方法会报错
 class Cat extends Animal3 {
   // public sayHi() {
   //   console.log(`Meow, My name is ${this.name}`);
@@ -103,3 +104,129 @@ class Cat extends Animal3 {
 }
 
 let cat5 = new Cat('Tom');
+
+
+
+/* 类与接口 */
+// 1. 类实现接口 
+// 一般来讲，一个类只能继承自另一个类，有时候不同类之间可以有一些共有的特性，这时候就可以把特性提取成接口（interfaces），用 implements 关键字来实现。这个特性大大提高了面向对象的灵活性
+interface Alarm {
+  alert(): void;
+}
+
+class Door {
+}
+
+class SecurityDoor extends Door implements Alarm {
+  alert() {
+      console.log('SecurityDoor alert');
+  }
+}
+
+class Car implements Alarm {
+  alert() {
+      console.log('Car alert');
+  }
+}
+// 一个类可以实现多个接口： class Car implements Alarm, Light
+
+// 2. 接口继承接口
+interface LightableAlarm extends Alarm {
+  lightOn(): void;
+  lightOff(): void;
+}
+
+// 3. 接口继承类
+// 常见的面向对象语言中，接口是不能继承类的，但是在 TypeScript 中却是可以的：
+class Point {
+  x: number;
+  y: number;
+  constructor(x: number, y: number) {
+      this.x = x;
+      this.y = y;
+  }
+}
+
+interface Point3d extends Point {
+  z: number;
+}
+
+let point3d: Point3d = {x: 1, y: 2, z: 3};
+
+
+
+/* 泛型  */
+// 泛型（Generics）是指在定义函数、接口或类的时候，不预先指定具体的类型，而在使用的时候再指定类型的一种特性。
+// 我们在函数名后添加了 <T>，其中 T 用来指代任意输入的类型，在后面的输入 value: T 和输出 Array<T> 中即可使用了。
+function createArray<T>(length: number, value: T): Array<T> {
+  let result: T[] = [];
+  for (let i = 0; i < length; i++) {
+      result[i] = value;
+  }
+  return result;
+}
+
+createArray<string>(3, 'x'); // ['x', 'x', 'x']
+
+// 1. 定义泛型的时候，可以一次定义多个类型参数：
+function swap<T, U>(tuple: [T, U]): [U, T] {
+  return [tuple[1], tuple[0]];
+}
+
+swap([7, 'seven']); // ['seven', 7]
+
+// 2. 泛型约束
+// 我们可以对泛型进行约束，只允许这个函数传入那些包含 length 属性的变量。这就是泛型约束：
+interface Lengthwise {
+  length: number;
+}
+
+function loggingIdentity<T extends Lengthwise>(arg: T): T {
+  console.log(arg.length);
+  return arg;
+}
+
+// 3. 泛型接口
+interface CreateArrayFunc<T> {
+  (length: number, value: T): Array<T>;
+}
+
+let createArray1: CreateArrayFunc<any>;
+createArray1 = function<T>(length: number, value: T): Array<T> {
+  let result: T[] = [];
+  for (let i = 0; i < length; i++) {
+      result[i] = value;
+  }
+  return result;
+}
+
+createArray(3, 'x'); // ['x', 'x', 'x']
+
+// 4. 泛型参数的默认类型
+function createArray2<T = string>(length: number, value: T): Array<T> {
+  let result: T[] = [];
+  for (let i = 0; i < length; i++) {
+      result[i] = value;
+  }
+  return result;
+}
+
+
+
+/* 声明合并 */
+// 如果定义了两个相同名字的函数、接口或类，那么它们会合并成一个类型： 合并的属性的类型必须是唯一的
+interface Alarm1 {
+  price: number;
+}
+interface Alarm1 {
+  price: number;  // 虽然重复了，但是类型都是 `number`，所以不会报错
+  weight: number;
+}
+
+interface Alarm2 {
+  price: number;
+}
+interface Alarm2 {
+  price: string;  // 类型不一致，会报错
+  weight: number;
+}
