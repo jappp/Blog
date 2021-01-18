@@ -8,10 +8,11 @@
 #### CSS
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
 
-#### 杂记
-* [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
-
 #### 其他
+* [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
+* [TypeScript初探](https://github.com/jappp/Blog/issues/6)
+
+#### 总览
 [点击进入查看所有文章](https://github.com/jappp/Blog/issues)
 
 
