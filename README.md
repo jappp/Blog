@@ -10,7 +10,8 @@
 
 #### 其他
 * [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
-* [TypeScript初探](https://github.com/jappp/Blog/issues/6)
+* [速览TypeScript（基础）](https://github.com/jappp/Blog/issues/6)
+* [速览TypeScript（进阶）](https://github.com/jappp/Blog/issues/7)
 
 #### 总览
 [点击进入查看所有文章](https://github.com/jappp/Blog/issues)
