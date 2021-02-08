@@ -7,7 +7,7 @@
 * [React数据持久化](https://github.com/jappp/Blog/issues/8)
 
 #### JavaScript
-* [重学JS-作用域与闭包]()
+* [重学JS-作用域与闭包](https://github.com/jappp/Blog/issues/9)
 
 #### CSS
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
