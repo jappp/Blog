@@ -6,6 +6,9 @@
 * [React总结(三)](https://github.com/jappp/Blog/issues/5)
 * [React数据持久化](https://github.com/jappp/Blog/issues/8)
 
+#### JavaScript
+* [重学JS-作用域与闭包]()
+
 #### CSS
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
 
