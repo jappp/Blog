@@ -9,7 +9,7 @@
 #### Vue
 
 #### JavaScript
-* [重学JS-作用域与闭包](https://github.com/jappp/Blog/issues/9)
+* [重学JS-继承](https://github.com/jappp/Blog/issues/9)
 
 #### CSS
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
