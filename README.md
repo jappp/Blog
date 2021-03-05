@@ -10,6 +10,7 @@
 
 #### JavaScript
 * [重学JS-继承](https://github.com/jappp/Blog/issues/9)
+* [从零开始手写一个Promise](https://github.com/jappp/Blog/issues/10)
 
 #### CSS
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
