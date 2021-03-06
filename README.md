@@ -9,8 +9,8 @@
 #### Vue
 
 #### JavaScript
-* [重学JS-继承](https://github.com/jappp/Blog/issues/9)
 * [从零开始，一步一步实现一个完整的Promise](https://github.com/jappp/Blog/issues/10)
+* [重学JS-继承](https://github.com/jappp/Blog/issues/9)
 
 #### CSS
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
