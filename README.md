@@ -12,6 +12,7 @@
 * [React学习笔记(二)](https://github.com/jappp/Blog/issues/2)
 * [React学习笔记(三)](https://github.com/jappp/Blog/issues/5)
 * [实现React数据持久化](https://github.com/jappp/Blog/issues/8)
+* [React类组件和函数组件的本质区别](https://github.com/jappp/Blog/issues/12)
 
 #### Vue
 * [Vue.js 3.0做了什么](https://github.com/jappp/Blog/issues/11)
