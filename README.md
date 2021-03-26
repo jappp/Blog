@@ -10,6 +10,7 @@
 * [React学习笔记(三)](https://github.com/jappp/Blog/issues/5)
 * [类组件和函数组件的本质区别](https://github.com/jappp/Blog/issues/12)
 * [Redux源码简读](https://github.com/jappp/Blog/issues/13)
+* [Redux源码简读之二](https://github.com/jappp/Blog/issues/14)
 
 #### Vue
 * [Vue.js 3.0做了什么](https://github.com/jappp/Blog/issues/11)
