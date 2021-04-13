@@ -18,10 +18,11 @@
 #### CSS
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
 
-#### 其他
+#### 杂记
 * [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
 * [速览TypeScript（基础）](https://github.com/jappp/Blog/issues/6)
 * [速览TypeScript（进阶）](https://github.com/jappp/Blog/issues/7)
+* [由一道题引发的Promise实现思考](https://github.com/jappp/Blog/issues/15)
 
 #### 总览
 [点击进入查看所有文章](https://github.com/jappp/Blog/issues)
