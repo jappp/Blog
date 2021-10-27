@@ -31,6 +31,7 @@
 #### 杂记
 * [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
 * [由一道题引发的Promise实现思考](https://github.com/jappp/Blog/issues/15)
+* [M1 Mac install custom libvips](https://github.com/jappp/Blog/issues/16)
 
 
 #### 总览
