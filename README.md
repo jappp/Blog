@@ -32,7 +32,7 @@
 * [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
 * [由一道题引发的Promise实现思考](https://github.com/jappp/Blog/issues/15)
 * [M1 Mac install custom libvips, to use a globally-installed version of libvips](https://github.com/jappp/Blog/issues/16)
-* [sharp支持GIF图片处理的Dockerfile配置踩坑之旅](https://github.com/jappp/Blog/issues/17)
+* [sharp.js支持GIF图片处理的Dockerfile配置踩坑之旅](https://github.com/jappp/Blog/issues/17)
 
 
 #### 总览
