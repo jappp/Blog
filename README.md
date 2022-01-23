@@ -18,7 +18,8 @@
 * [CSS原子类](https://github.com/jappp/Blog/issues/4)
 
 #### Node.js
-
+* [M1 Mac install custom libvips, to use a globally-installed version of libvips](https://github.com/jappp/Blog/issues/16)
+* [sharp.js支持GIF图片处理的Dockerfile配置踩坑之旅](https://github.com/jappp/Blog/issues/17)
 
 #### 笔记
 * [React学习笔记(一)](https://github.com/jappp/Blog/issues/1)
@@ -31,8 +32,6 @@
 #### 杂记
 * [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
 * [由一道题引发的Promise实现思考](https://github.com/jappp/Blog/issues/15)
-* [M1 Mac install custom libvips, to use a globally-installed version of libvips](https://github.com/jappp/Blog/issues/16)
-* [sharp.js支持GIF图片处理的Dockerfile配置踩坑之旅](https://github.com/jappp/Blog/issues/17)
 
 
 #### 总览
