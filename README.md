@@ -20,7 +20,7 @@
 #### Backend（Node.js）
 * [M1 Mac install custom libvips, to use a globally-installed version of libvips](https://github.com/jappp/Blog/issues/16)
 * [sharp.js支持GIF图片处理的Dockerfile配置踩坑之旅](https://github.com/jappp/Blog/issues/17)
-* [NodeJS实现文件下载](https://github.com/jappp/Blog/issues/18)
+* [NodeJs实现文件下载](https://github.com/jappp/Blog/issues/18)
 
 #### 笔记
 * [React学习笔记(一)](https://github.com/jappp/Blog/issues/1)
