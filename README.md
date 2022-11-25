@@ -33,7 +33,7 @@
 #### 杂记
 * [不要重新分配函数参数](https://github.com/jappp/Blog/issues/3)
 * [由一道题引发的Promise实现思考](https://github.com/jappp/Blog/issues/15)
-* [一个上传请求对CORS的影响](https://github.com/jappp/Blog/issues/19)
+* [XMLHttpRequest的upload属性对CORS的影响](https://github.com/jappp/Blog/issues/19)
 
 
 
